@@ -55,7 +55,7 @@ Définissez un nouveau mot de passe
 - Create a database and give the name hibernate2
 - Strat GlassFish server
 - Build and run the project
-- Open your web browser and navigate to http://localhost:8080/GestCommande.
+
 
 
 
