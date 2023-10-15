@@ -17,8 +17,8 @@ import javax.mail.internet.MimeMessage;
 
 public class EmailSender {
 
-    static final String username = "younesmoujib05@gmail.com";
-    static final String password = "ixfq upag bept bbdq ";
+    static final String username = "votre email";
+    static final String password = "votre code  ";
     static final String host = "smtp.gmail.com";
     static final String port = "587";
 
@@ -53,13 +53,7 @@ public class EmailSender {
 
     public static void main(String[] args) {
         // Exemple d'utilisation de la classe EmailSender
-        String username = "younesmoujib05@gmail.com";
-        String password = "vixfq upag bept bbdq ";
-        String host = "smtp.gmail.com"; // ou tout autre serveur SMTP que vous utilisez
-        String port = "587"; // Port SMTP, par exemple, 587 pour TLS
-        String recipient = "youneswidadi5@gmail.com";
-        String subject = "test sendMailer";
-        String messageBody = "hello";
+      
 
         EmailSender.sendEmail(recipient, subject, messageBody);
     }
